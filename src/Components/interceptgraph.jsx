@@ -21,7 +21,7 @@ class Interceptgraph extends Component {
                 return
             })
             .then(data=>{
-                interceptgraph_build('interceptGraph_SVGContainer', data)
+                interceptgraph_build('interceptGraph_SVGContainer', data, false)
             })
     }
 

@@ -1,8 +1,28 @@
 #interceptGraph_SVGContainer{
-    background-color: #f0f0f0;
+    background-color: #fafafa;
+}
+
+svg{
+    position: absolute;
+    left: 100px;
+    top: 100px;
 }
 
 
 .outerAxis_rise_, .outerAxis_drop_, .innerAxis_rise_, .innerAxis_drop_{
     visibility: hidden;
+}
+
+
+
+.innerAxis_rise{
+    cursor: pointer;
+    pointer-events: all;
+}
+
+
+.innerAxis_drop{
+    cursor: pointer;
+    pointer-events: all;
+
 }
